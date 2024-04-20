@@ -1,0 +1,15 @@
+<div class="container">
+
+<h1>Autos</h1>
+<hr>
+
+
+<div class="card-columns">
+  
+
+<!-- *ngFor="let heroe of heroes; let i = index" -->
+  <app-heroe-tarjeta  (heroeSeleccionado)="verAuto( $event )" [heroe]="foo" [index]="i"  *ngFor="let foo of Autos; let i = index"></app-heroe-tarjeta>
+
+
+</div>
+</div>

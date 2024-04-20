@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+
+ .shadow {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+.master{
+  background-image: url('assets/img/master3.jpg'); background-repeat: no-repeat; background-size: cover; 
+}
+
+body{
+  padding-bottom: 50px;
+
+
+}
+
+.main-container{
+  margin-top: 20px;
+}
+
+.img-logo{
+    width: 120px;
+}
+
+
+
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
